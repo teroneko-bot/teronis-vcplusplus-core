@@ -13,5 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Quelldateien\Tools">
+      <UniqueIdentifier>{a5d9a2c8-f21e-4993-ac03-bf36ce11fe3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Tools">
+      <UniqueIdentifier>{57da31c1-304d-4755-8623-1493789015cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tools\Character.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Integer.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Math.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tools\Character.cpp">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Integer.cpp">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Math.cpp">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
