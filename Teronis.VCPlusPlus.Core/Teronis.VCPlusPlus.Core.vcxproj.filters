@@ -30,6 +30,9 @@
     <ClInclude Include="Tools\Math.h">
       <Filter>Headerdateien\Tools</Filter>
     </ClInclude>
+    <ClInclude Include="Tools\Date.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tools\Character.cpp">
@@ -39,6 +42,9 @@
       <Filter>Quelldateien\Tools</Filter>
     </ClCompile>
     <ClCompile Include="Tools\Math.cpp">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Date.cpp">
       <Filter>Quelldateien\Tools</Filter>
     </ClCompile>
   </ItemGroup>

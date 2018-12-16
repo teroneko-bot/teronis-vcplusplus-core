@@ -115,11 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Tools\Date.h" />
     <ClInclude Include="Tools\Character.h" />
     <ClInclude Include="Tools\Integer.h" />
     <ClInclude Include="Tools\Math.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Tools\Date.cpp" />
     <ClCompile Include="Tools\Character.cpp" />
     <ClCompile Include="Tools\Integer.cpp" />
     <ClCompile Include="Tools\Math.cpp" />
