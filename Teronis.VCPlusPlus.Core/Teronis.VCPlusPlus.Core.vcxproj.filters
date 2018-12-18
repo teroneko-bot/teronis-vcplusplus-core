@@ -33,6 +33,9 @@
     <ClInclude Include="Tools\Date.h">
       <Filter>Headerdateien\Tools</Filter>
     </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tools\Character.cpp">
@@ -46,6 +49,9 @@
     </ClCompile>
     <ClCompile Include="Tools\Date.cpp">
       <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

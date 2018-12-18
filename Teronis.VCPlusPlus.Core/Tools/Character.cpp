@@ -23,14 +23,17 @@ namespace Teronis {
 
 			int CharacterTools::transformCharsToNumber(char* ptr, int length, int startIndex, int backIndex) {
 				IntegerTools::initializeEndIndex(length, startIndex, &backIndex);
-				double j = 0.1;
+
+				bool isNegative = false;
+				int j = 0, mSize = sizeof(ptr), indexRange;
 
 				if (*(ptr + startIndex) == '-') {
 					startIndex++;
-					j *= -1;
+					isNegative = true;
 				}
 
-				int mSize = sizeof(ptr), indexRange = backIndex - startIndex + 1;
+				// Now startIndex don't change anymore.
+				indexRange = backIndex - startIndex + 1;
 
 				// Now we need the 0-based back index.
 				for (backIndex; backIndex >= startIndex; backIndex--) {
@@ -41,7 +44,10 @@ namespace Teronis {
 					j += n;
 				}
 
-				return (int)j;
+				if (isNegative)
+					j *= -1;
+
+				return j;
 			}
 		};
 	}
